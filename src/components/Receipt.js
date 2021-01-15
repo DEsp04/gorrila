@@ -24,13 +24,13 @@ const Receipt = ({ receiptList }) => {
     return (
       <div className="flexItems">
         <div>
-          <h2>{receipt.person} <span name={receipt.person} onClick={removeReceipt}>❌</span></h2>
-          <p>Main: {receipt.order.main}</p>
-          <p>Protein: {receipt.order.protein}</p>
-          <p>Rice: {receipt.order.rice}</p>
-          <p>Sauce: {receipt.order.sauce}</p>
-          <p>Drink: {receipt.order.drink}</p>
-          <p>Cost: {receipt.order.cost}</p>
+          <h2>{receipt.person} <span className="delete" name={receipt.person} onClick={removeReceipt}>❌</span></h2>
+          <p><span className="purple">Main:</span> {receipt.order.main}</p>
+          <p><span className="purple">Protein:</span> {receipt.order.protein}</p>
+          <p><span className="purple">Rice:</span> {receipt.order.rice}</p>
+          <p><span className="purple">Sauce:</span> {receipt.order.sauce}</p>
+          <p><span className="purple">Drink:</span> {receipt.order.drink}</p>
+          <p><span className="purple">Cost:</span> {receipt.order.cost}</p>
         </div>
       </div>
     )

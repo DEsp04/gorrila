@@ -9,3 +9,12 @@
   justify-content: center;
   border: red 1px solid;
 }
+
+.purple {
+  color: #4e2083;
+  font-weight: bold;
+}
+
+.delete {
+  cursor: pointer;
+}
