@@ -1,0 +1,11 @@
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flexItems {
+  width: 31%;
+  display: flex;
+  justify-content: center;
+  border: red 1px solid;
+}
